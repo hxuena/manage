@@ -19,7 +19,9 @@ let webpackConfig = {
   },
   module: {
     rules: [
-      { test: /\.tsx?$/, loader: "ts-loader" },
+      { test: /\.tsx?$/, 
+        exclude: /node_modules/,
+        loader: "ts-loader" },
       {
         test: /\.css$/,
         // exclude: /node_modules/,

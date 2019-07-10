@@ -1,5 +1,5 @@
-import * as React from 'react';
-import { Layout, Menu, Icon } from 'antd';
+import * as React from "react";
+import { Layout, Menu, Icon } from "antd";
 import './App.css';
 
 const { Header, Sider, Content } = Layout;
