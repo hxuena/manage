@@ -21,7 +21,7 @@ const routes:RouteProps[] = [
     component: Banner
   }
 ]
-const Routes = () => {
+const Routes = () => (
   <Suspense fallback={<Loading/>}>
     <Switch>
       {
@@ -36,5 +36,5 @@ const Routes = () => {
       }
     </Switch>
   </Suspense>
-}
+)
 export default Routes;
